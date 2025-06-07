@@ -15,16 +15,18 @@ cd geometry-lib-task
 
 
 ## Пример использования
+```
 from geometry_lib import Circle, Triangle, area
 
 print(area(Circle(5)))          # 78.53981633974483
-
 print(area(Triangle(3, 4, 5)))  # 6.0
-
 print(Triangle(3, 4, 5).is_right())  # True
+```
 
 Быстрый запуск примера:
+```
 python demo.py
+```
 
 ## Запуск тестов
 python geometry_lib.py -v
